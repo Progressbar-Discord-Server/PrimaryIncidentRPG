@@ -1,0 +1,1 @@
+/// @description Shared colision tile - DO NOT PLACE IN ROOM!
