@@ -1,17 +1,21 @@
 {
   "resources": [
-    {"id":{"name":"spr_lolguy_front","path":"sprites/spr_lolguy_front/spr_lolguy_front.yy",},"order":3,},
+    {"id":{"name":"spr_lolguy_front","path":"sprites/spr_lolguy_front/spr_lolguy_front.yy",},"order":1,},
     {"id":{"name":"obj_colisTile","path":"objects/obj_colisTile/obj_colisTile.yy",},"order":2,},
     {"id":{"name":"persist","path":"objects/persist/persist.yy",},"order":0,},
-    {"id":{"name":"spr_lolguy_right","path":"sprites/spr_lolguy_right/spr_lolguy_right.yy",},"order":5,},
-    {"id":{"name":"spr_lolguy_left","path":"sprites/spr_lolguy_left/spr_lolguy_left.yy",},"order":4,},
-    {"id":{"name":"spr_lolguy_editor","path":"sprites/spr_lolguy_editor/spr_lolguy_editor.yy",},"order":6,},
-    {"id":{"name":"spr_lolguy_back","path":"sprites/spr_lolguy_back/spr_lolguy_back.yy",},"order":2,},
+    {"id":{"name":"spr_lolguy_idle_right","path":"sprites/spr_lolguy_idle_right/spr_lolguy_idle_right.yy",},"order":3,},
+    {"id":{"name":"spr_lolguy_right","path":"sprites/spr_lolguy_right/spr_lolguy_right.yy",},"order":3,},
+    {"id":{"name":"spr_lolguy_left","path":"sprites/spr_lolguy_left/spr_lolguy_left.yy",},"order":2,},
+    {"id":{"name":"spr_lolguy_editor","path":"sprites/spr_lolguy_editor/spr_lolguy_editor.yy",},"order":1,},
+    {"id":{"name":"spr_lolguy_back","path":"sprites/spr_lolguy_back/spr_lolguy_back.yy",},"order":0,},
     {"id":{"name":"getLocal","path":"scripts/getLocal/getLocal.yy",},"order":0,},
+    {"id":{"name":"spr_lolguy_idle_front","path":"sprites/spr_lolguy_idle_front/spr_lolguy_idle_front.yy",},"order":1,},
     {"id":{"name":"spr_colistile","path":"sprites/spr_colistile/spr_colistile.yy",},"order":0,},
     {"id":{"name":"obj_plr","path":"objects/obj_plr/obj_plr.yy",},"order":3,},
-    {"id":{"name":"spr_sign","path":"sprites/spr_sign/spr_sign.yy",},"order":7,},
+    {"id":{"name":"spr_lolguy_idle_left","path":"sprites/spr_lolguy_idle_left/spr_lolguy_idle_left.yy",},"order":2,},
+    {"id":{"name":"spr_sign","path":"sprites/spr_sign/spr_sign.yy",},"order":4,},
     {"id":{"name":"colis","path":"objects/colis/colis.yy",},"order":1,},
+    {"id":{"name":"spr_lolguy_idle_back","path":"sprites/spr_lolguy_idle_back/spr_lolguy_idle_back.yy",},"order":0,},
     {"id":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},"order":0,},
   ],
   "Options": [
@@ -45,6 +49,8 @@
     {"folderPath":"folders/Animation Curves.yy","order":12,"resourceVersion":"1.0","name":"Animation Curves","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/walking.yy","order":2,"resourceVersion":"1.0","name":"walking","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/idle.yy","order":3,"resourceVersion":"1.0","name":"idle","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
@@ -52,7 +58,9 @@
   "TextureGroups": [
     {"isScaled":true,"compressFormat":"bz2","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,"resourceVersion":"1.3","name":"Default","resourceType":"GMTextureGroup",},
   ],
-  "IncludedFiles": [],
+  "IncludedFiles": [
+    {"CopyToMask":-1,"filePath":"datafiles/res","resourceVersion":"1.0","name":"locale.ini","resourceType":"GMIncludedFile",},
+  ],
   "MetaData": {
     "IDEVersion": "2022.6.0.23",
   },
