@@ -1,8 +1,8 @@
 {
-  "name": "obj_colisTile",
+  "name": "obj_editor_colisTile",
   "spriteId": {
-    "name": "spr_colistile",
-    "path": "sprites/spr_colistile/spr_colistile.yy",
+    "name": "spr_editor_colistile",
+    "path": "sprites/spr_editor_colistile/spr_editor_colistile.yy",
   },
   "spriteMaskId": null,
   "visible": true,

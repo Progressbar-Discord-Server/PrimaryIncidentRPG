@@ -1,8 +1,9 @@
 {
   "resources": [
     {"id":{"name":"spr_lolguy_front","path":"sprites/spr_lolguy_front/spr_lolguy_front.yy",},"order":1,},
-    {"id":{"name":"obj_colisTile","path":"objects/obj_colisTile/obj_colisTile.yy",},"order":2,},
+    {"id":{"name":"obj_editor_colisTile","path":"objects/obj_editor_colisTile/obj_editor_colisTile.yy",},"order":2,},
     {"id":{"name":"persist","path":"objects/persist/persist.yy",},"order":0,},
+    {"id":{"name":"spr_editor_interact","path":"sprites/spr_editor_interact/spr_editor_interact.yy",},"order":5,},
     {"id":{"name":"spr_lolguy_idle_right","path":"sprites/spr_lolguy_idle_right/spr_lolguy_idle_right.yy",},"order":3,},
     {"id":{"name":"spr_lolguy_right","path":"sprites/spr_lolguy_right/spr_lolguy_right.yy",},"order":3,},
     {"id":{"name":"spr_lolguy_left","path":"sprites/spr_lolguy_left/spr_lolguy_left.yy",},"order":2,},
@@ -10,7 +11,7 @@
     {"id":{"name":"spr_lolguy_back","path":"sprites/spr_lolguy_back/spr_lolguy_back.yy",},"order":0,},
     {"id":{"name":"getLocal","path":"scripts/getLocal/getLocal.yy",},"order":0,},
     {"id":{"name":"spr_lolguy_idle_front","path":"sprites/spr_lolguy_idle_front/spr_lolguy_idle_front.yy",},"order":1,},
-    {"id":{"name":"spr_colistile","path":"sprites/spr_colistile/spr_colistile.yy",},"order":0,},
+    {"id":{"name":"spr_editor_colistile","path":"sprites/spr_editor_colistile/spr_editor_colistile.yy",},"order":0,},
     {"id":{"name":"obj_plr","path":"objects/obj_plr/obj_plr.yy",},"order":3,},
     {"id":{"name":"spr_lolguy_idle_left","path":"sprites/spr_lolguy_idle_left/spr_lolguy_idle_left.yy",},"order":2,},
     {"id":{"name":"spr_sign","path":"sprites/spr_sign/spr_sign.yy",},"order":4,},
