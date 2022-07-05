@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_editor_trigger_interact",
+    "path": "sprites/spr_editor_trigger_interact/spr_editor_trigger_interact.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -19,16 +22,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":69,"eventType":9,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "DO-NOT-PLACE",
-    "path": "folders/Objects/DO-NOT-PLACE.yy",
+    "name": "triggers",
+    "path": "folders/Objects/Invisible at Runtime/triggers.yy",
   },
   "resourceVersion": "1.0",
-  "name": "colis",
+  "name": "obj_editor_trigger_onInteract",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -10,4 +10,4 @@ sprite_index = spr_lolguy_front
 
 lastFacing=3
 
-moveSpeed=3
+moveSpeed=2.5

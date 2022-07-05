@@ -1,19 +1,18 @@
 {
-  "name": "obj_editor_colisTile",
   "spriteId": {
     "name": "spr_editor_colistile",
     "path": "sprites/spr_editor_colistile/spr_editor_colistile.yy",
   },
-  "spriteMaskId": null,
-  "visible": true,
   "solid": false,
-  "persistent": false,
-  "physicsObject": false,
+  "visible": true,
   "managed": true,
+  "spriteMaskId": null,
+  "persistent": false,
   "parentObjectId": {
     "name": "colis",
     "path": "objects/colis/colis.yy",
   },
+  "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 1,
@@ -31,10 +30,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Invisible at Runtime",
+    "path": "folders/Objects/Invisible at Runtime.yy",
   },
   "resourceVersion": "1.0",
+  "name": "obj_editor_colisTile",
   "tags": [],
   "resourceType": "GMObject",
 }
