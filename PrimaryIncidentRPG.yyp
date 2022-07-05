@@ -21,6 +21,8 @@
     {"id":{"name":"spr_lolguy_idle_left","path":"sprites/spr_lolguy_idle_left/spr_lolguy_idle_left.yy",},"order":2,},
     {"id":{"name":"spr_sign","path":"sprites/spr_sign/spr_sign.yy",},"order":7,},
     {"id":{"name":"obj_editor_trigger_onInteract","path":"objects/obj_editor_trigger_onInteract/obj_editor_trigger_onInteract.yy",},"order":2,},
+    {"id":{"name":"1. Interaction Triggers","path":"notes/1. Interaction Triggers/1. Interaction Triggers.yy",},"order":1,},
+    {"id":{"name":"0. Hello!","path":"notes/0. Hello!/0. Hello!.yy",},"order":0,},
     {"id":{"name":"colis","path":"objects/colis/colis.yy",},"order":1,},
     {"id":{"name":"spr_lolguy_idle_back","path":"sprites/spr_lolguy_idle_back/spr_lolguy_idle_back.yy",},"order":0,},
     {"id":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},"order":0,},
@@ -61,6 +63,7 @@
     {"folderPath":"folders/Objects/Invisible at Runtime/triggers.yy","order":0,"resourceVersion":"1.0","name":"triggers","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/DO-NOT-PLACE.yy","order":4,"resourceVersion":"1.0","name":"DO-NOT-PLACE","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Invisible at Runtime.yy","order":0,"resourceVersion":"1.0","name":"Invisible at Runtime","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/==DOCUMENTATION==.yy","order":0,"resourceVersion":"1.0","name":"==DOCUMENTATION==","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
