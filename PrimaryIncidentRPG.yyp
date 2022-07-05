@@ -1,7 +1,9 @@
 {
   "resources": [
+    {"id":{"name":"spr_diag","path":"sprites/spr_diag/spr_diag.yy",},"order":8,},
     {"id":{"name":"spr_lolguy_front","path":"sprites/spr_lolguy_front/spr_lolguy_front.yy",},"order":1,},
     {"id":{"name":"obj_editor_colisTile","path":"objects/obj_editor_colisTile/obj_editor_colisTile.yy",},"order":1,},
+    {"id":{"name":"dialog","path":"scripts/dialog/dialog.yy",},"order":2,},
     {"id":{"name":"persist","path":"objects/persist/persist.yy",},"order":0,},
     {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},"order":1,},
     {"id":{"name":"spr_editor_trigger_collide","path":"sprites/spr_editor_trigger_collide/spr_editor_trigger_collide.yy",},"order":1,},
@@ -19,6 +21,7 @@
     {"id":{"name":"spr_editor_colistile","path":"sprites/spr_editor_colistile/spr_editor_colistile.yy",},"order":0,},
     {"id":{"name":"obj_plr","path":"objects/obj_plr/obj_plr.yy",},"order":3,},
     {"id":{"name":"spr_lolguy_idle_left","path":"sprites/spr_lolguy_idle_left/spr_lolguy_idle_left.yy",},"order":2,},
+    {"id":{"name":"obj_dialogRender","path":"objects/obj_dialogRender/obj_dialogRender.yy",},"order":2,},
     {"id":{"name":"spr_sign","path":"sprites/spr_sign/spr_sign.yy",},"order":7,},
     {"id":{"name":"obj_editor_trigger_onInteract","path":"objects/obj_editor_trigger_onInteract/obj_editor_trigger_onInteract.yy",},"order":2,},
     {"id":{"name":"1. Interaction Triggers","path":"notes/1. Interaction Triggers/1. Interaction Triggers.yy",},"order":1,},
