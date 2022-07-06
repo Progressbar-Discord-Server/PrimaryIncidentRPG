@@ -16,9 +16,12 @@ dialogs = [
 ]
 #endregion
 
+//Do not modifiy these.
 text = ""
-dtextCharPos = 1
+targText=""
+textCharPos = 1
 textArrayPos=0
+textWait=[0,0] //First variable is how long to wait, 2nt variable is dynamically altered as the wait time
 char=0
 charexp=0
 
