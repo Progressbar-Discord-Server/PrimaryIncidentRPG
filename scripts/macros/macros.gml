@@ -1,4 +1,4 @@
-#macro version "sus"
+#macro version "dec"
 #macro player obj_plr
 
 //Dialog - Char
