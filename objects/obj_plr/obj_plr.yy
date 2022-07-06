@@ -10,7 +10,7 @@
     "name": "spr_lolguy_editor",
     "path": "sprites/spr_lolguy_editor/spr_lolguy_editor.yy",
   },
-  "persistent": false,
+  "persistent": true,
   "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
