@@ -21,6 +21,12 @@ dialogs = [
 ]
 #endregion
 
+// functions
+
+function punctuationCheck(){
+	return string_char_at(targText, textCharPos) = "." || string_char_at(targText, textCharPos) = "," || string_char_at(targText, textCharPos) = "!" || string_char_at(targText, textCharPos) = "?" || string_char_at(targText, textCharPos) = ":" || string_char_at(targText, textCharPos) = ";";
+}
+
 //Do not modifiy these.
 text = ""
 targText=""
