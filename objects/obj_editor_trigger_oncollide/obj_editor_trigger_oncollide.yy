@@ -32,7 +32,7 @@
     "path": "folders/Objects/Invisible at Runtime/triggers.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_editor_trigger_singleUseCollide",
+  "name": "obj_editor_trigger_onCollide",
   "tags": [],
   "resourceType": "GMObject",
 }

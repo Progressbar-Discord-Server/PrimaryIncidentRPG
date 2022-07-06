@@ -1,4 +1,8 @@
-/// @description
+/// @description Initialization
+
+//==============================================
+// READ DOCUMENTATION ON DIALOGS FOR MORE INFO!
+//==============================================
 
 //Define dialogs here in an array
 #region Dialog Array

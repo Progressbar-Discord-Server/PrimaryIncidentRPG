@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_editor_trigger_collide",
-    "path": "sprites/spr_editor_trigger_collide/spr_editor_trigger_collide.yy",
+    "name": "spr_editor_trigger_singlecollide",
+    "path": "sprites/spr_editor_trigger_singlecollide/spr_editor_trigger_singlecollide.yy",
   },
   "solid": false,
   "visible": true,
@@ -32,7 +32,7 @@
     "path": "folders/Objects/Invisible at Runtime/triggers.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_editor_trigger_collide",
+  "name": "obj_editor_trigger_singleUseOnCollide",
   "tags": [],
   "resourceType": "GMObject",
 }
