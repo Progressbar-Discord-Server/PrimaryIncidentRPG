@@ -16,6 +16,8 @@ function scanText(){
 			scanText()
 		} else {
 			text = dialogs[dialogId,textArrayPos][1]
+			char = dialogs[dialogId,textArrayPos][2]
+			charexp = dialogs[dialogId,textArrayPos][3]
 			textArrayPos++
 		}
 	}	

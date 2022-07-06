@@ -19,5 +19,7 @@ dialogs = [
 text = ""
 dtextCharPos = 1
 textArrayPos=0
+char=0
+charexp=0
 
 scanText()
