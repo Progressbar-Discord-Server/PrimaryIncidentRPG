@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Lol Guy",
+    "path": "folders/Sprites/Characters/Lol Guy.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_lolguy_editor",

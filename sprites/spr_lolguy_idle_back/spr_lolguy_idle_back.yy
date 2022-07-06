@@ -1,20 +1,19 @@
 {
-  "name": "spr_lolguy_idle_back",
-  "HTile": false,
-  "VTile": false,
-  "For3D": false,
+  "bboxMode": 0,
+  "collisionKind": 1,
+  "type": 0,
+  "origin": 4,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
+  "swfPrecision": 2.525,
   "bbox_left": 0,
   "bbox_right": 31,
   "bbox_top": 0,
   "bbox_bottom": 31,
-  "origin": 4,
-  "bboxMode": 0,
-  "collisionKind": 1,
-  "type": 0,
-  "swfPrecision": 2.525,
+  "HTile": false,
+  "VTile": false,
+  "For3D": false,
   "width": 32,
   "height": 32,
   "textureGroupId": {
@@ -33,13 +32,6 @@
       ],"parent":{"name":"spr_lolguy_idle_back","path":"sprites/spr_lolguy_idle_back/spr_lolguy_idle_back.yy",},"resourceVersion":"1.0","name":"e2cea0f1-5e50-4430-8f7f-f0d927ce6fc6","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"e37fb07a-9a09-4124-827b-d145f818a530","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1521f646-fa49-4931-8e80-accea00a6b37","path":"sprites/spr_lolguy_idle_back/spr_lolguy_idle_back.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"f67716a2-3c1a-42e8-8551-f63e2c27db11","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e2cea0f1-5e50-4430-8f7f-f0d927ce6fc6","path":"sprites/spr_lolguy_idle_back/spr_lolguy_idle_back.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
-    ],
-    "visibleRange": null,
     "spriteId": {"name":"spr_lolguy_idle_back","path":"sprites/spr_lolguy_idle_back/spr_lolguy_idle_back.yy",},
     "timeUnits": 1,
     "playback": 1,
@@ -50,6 +42,13 @@
     "length": 2.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "tracks": [
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"e37fb07a-9a09-4124-827b-d145f818a530","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1521f646-fa49-4931-8e80-accea00a6b37","path":"sprites/spr_lolguy_idle_back/spr_lolguy_idle_back.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"f67716a2-3c1a-42e8-8551-f63e2c27db11","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e2cea0f1-5e50-4430-8f7f-f0d927ce6fc6","path":"sprites/spr_lolguy_idle_back/spr_lolguy_idle_back.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+    ],
+    "visibleRange": null,
     "lockOrigin": false,
     "showBackdrop": true,
     "showBackdropImage": false,
@@ -75,9 +74,10 @@
   "nineSlice": null,
   "parent": {
     "name": "idle",
-    "path": "folders/Sprites/idle.yy",
+    "path": "folders/Sprites/Characters/Lol Guy/idle.yy",
   },
   "resourceVersion": "1.0",
+  "name": "spr_lolguy_idle_back",
   "tags": [],
   "resourceType": "GMSprite",
 }
