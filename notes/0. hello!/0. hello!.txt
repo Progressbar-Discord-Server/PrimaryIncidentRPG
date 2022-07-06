@@ -1,3 +1,3 @@
 Thank you for checking out the source code for the "Primary Incident RPG"! This is the documentation
 that goes along with the source code to point things out and explain why i did some things like i
-did and some other things.
+did and some other things. These are in no particular order.

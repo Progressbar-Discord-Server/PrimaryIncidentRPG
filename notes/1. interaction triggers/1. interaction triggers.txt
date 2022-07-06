@@ -5,7 +5,7 @@ There are 3 kinds of interaction triggers:
 - obj_editor_trigger_onInteract (Triggers once when E is pressed)
 
 all of these triggers basically work on the same principal. Any time it's triggered, it calls a function
-called "interacEvent()" which is a function defined in the creation code event in the room editor.
+called "interactEvent()" which is a function defined in the creation code event in the room editor.
 
 Here is an example of an interact event:
 

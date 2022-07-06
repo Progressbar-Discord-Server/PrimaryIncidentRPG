@@ -1,6 +1,6 @@
 /// @description
 //Text render
-draw_text(x+133, y+23, text)
+draw_text_ext(x+133, y+22, text, 15, 470)
 
 //Icon and text render
 switch char {
