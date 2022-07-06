@@ -25,8 +25,8 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"4ff45573-dc1a-4985-b61b-2e47479a2435","path":"sprites/spr_diag/spr_diag.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4ff45573-dc1a-4985-b61b-2e47479a2435","path":"sprites/spr_diag/spr_diag.yy",},"LayerId":{"name":"d38aaba7-27a7-475a-943e-fa11fb4a5818","path":"sprites/spr_diag/spr_diag.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"4ff45573-dc1a-4985-b61b-2e47479a2435","path":"sprites/spr_diag/spr_diag.yy",},"LayerId":{"name":"03f46d65-c033-4878-b5e3-7bc9bbde7f14","path":"sprites/spr_diag/spr_diag.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"4ff45573-dc1a-4985-b61b-2e47479a2435","path":"sprites/spr_diag/spr_diag.yy",},"LayerId":{"name":"d38aaba7-27a7-475a-943e-fa11fb4a5818","path":"sprites/spr_diag/spr_diag.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_diag","path":"sprites/spr_diag/spr_diag.yy",},"resourceVersion":"1.0","name":"4ff45573-dc1a-4985-b61b-2e47479a2435","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -69,7 +69,31 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"03f46d65-c033-4878-b5e3-7bc9bbde7f14","tags":[],"resourceType":"GMImageLayer",},
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d38aaba7-27a7-475a-943e-fa11fb4a5818","tags":[],"resourceType":"GMImageLayer",},
   ],
-  "nineSlice": null,
+  "nineSlice": {
+    "left": 133,
+    "top": 26,
+    "right": 5,
+    "bottom": 0,
+    "guideColour": [
+      4294902015,
+      4294902015,
+      4294902015,
+      4294902015,
+    ],
+    "highlightColour": 1728023040,
+    "highlightStyle": 0,
+    "enabled": false,
+    "tileMode": [
+      0,
+      0,
+      0,
+      0,
+      0,
+    ],
+    "resourceVersion": "1.0",
+    "loadedVersion": null,
+    "resourceType": "GMNineSliceData",
+  },
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
