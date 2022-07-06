@@ -1,3 +1,6 @@
+Note: If youi want an easier to read format version of the docs, check out the Wiki on the repo: 
+https://github.com/Progressbar-Discord-Server/PrimaryIncidentRPG/wiki
+
 Thank you for checking out the source code for the "Primary Incident RPG"! This is the documentation
 that goes along with the source code to point things out and explain why i did some things like i
 did and some other things. These are in no particular order.
