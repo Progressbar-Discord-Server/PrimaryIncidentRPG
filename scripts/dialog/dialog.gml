@@ -7,13 +7,13 @@ function startDialog(dialog_id){
 
 ///DO NOT CALL THIS FUNCTION!!!!
 function scanText(){
-	if(textArrayPos > array_length(dialogs[0])-1) instance_destroy() else {
-		if dialogs[0,textArrayPos][0] == DIAG_TYPE_CODE{
-			dialogs[0,textArrayPos][1]()
+	if(textArrayPos > array_length(dialogs[dialogId])-1) instance_destroy() else {
+		if dialogs[dialogId,textArrayPos][0] == DIAG_TYPE_CODE{
+			dialogs[dialogId,textArrayPos][1]()
 			textArrayPos++
 			scanText()
 		} else {
-			text = dialogs[0,textArrayPos][1]
+			text = dialogs[dialogId,textArrayPos][1]
 			textArrayPos++
 		}
 	}	
