@@ -6,7 +6,10 @@
   "solid": false,
   "visible": true,
   "managed": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_lolguy_editor",
+    "path": "sprites/spr_lolguy_editor/spr_lolguy_editor.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,

@@ -1,3 +1,5 @@
 One of the most important part of an RPG is the dialog system. It's one of the only ways the game
 can communicate the main story with the player. The dialog system used in this game is customly made
 for this game so it may have some weirdness. Don't worry!
+
+To set custom dialogue, edit the dialog variable in the creation code of your object. (for now)
