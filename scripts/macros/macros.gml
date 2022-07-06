@@ -5,6 +5,7 @@
 #macro DIAG_CHAR_PLACEHOLDER -1
 #macro DIAG_CHAR_UNKNOWN 0
 #macro DIAG_CHAR_INFO 99
+#macro DIAG_CHAR_ROFL_PERSON 1
 
 //Dialog - Expressions
 #macro DIAG_FACE_NEUTRAL 0
