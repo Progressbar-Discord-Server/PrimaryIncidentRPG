@@ -12,6 +12,7 @@ if textWait[1] <= 0 {
 		text+= string_char_at(targText, textCharPos)
 		textCharPos++
 		textWait[1] = textWait[0]
+		audio_play_sound(snd_speak_gen, 10, 0)
 	}
 }
 textWait[1]--
