@@ -6,7 +6,6 @@ if (place_meeting(x, y, obj_plr)){
 	}
 } else {
 	if hasColided=1 {
-		show_debug_message("Not")
 		hasColided=0
 	}
 }
