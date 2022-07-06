@@ -67,7 +67,7 @@
     {"folderPath":"folders/Objects/Invisible at Runtime/triggers.yy","order":0,"resourceVersion":"1.0","name":"triggers","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/DO-NOT-PLACE.yy","order":4,"resourceVersion":"1.0","name":"DO-NOT-PLACE","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Invisible at Runtime.yy","order":0,"resourceVersion":"1.0","name":"Invisible at Runtime","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/==DOCUMENTATION==.yy","order":0,"resourceVersion":"1.0","name":"==DOCUMENTATION==","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/===DOCS===.yy","order":0,"resourceVersion":"1.0","name":"===DOCS===","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
