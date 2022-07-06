@@ -4,8 +4,12 @@
 //Dialog - Char
 #macro DIAG_CHAR_PLACEHOLDER -1
 #macro DIAG_CHAR_UNKNOWN 0
+#macro DIAG_CHAR_LOLGUY 1
+#macro DIAG_CHAR_CHRIS 2
+#macro DIAG_CHAR_LEXI 3
+#macro DIAG_CHAR_BURNING 4
+#macro DIAG_CHAR_INFERNOHOT 5
 #macro DIAG_CHAR_INFO 99
-#macro DIAG_CHAR_ROFL_PERSON 1
 
 //Dialog - Expressions
 #macro DIAG_FACE_NEUTRAL 0

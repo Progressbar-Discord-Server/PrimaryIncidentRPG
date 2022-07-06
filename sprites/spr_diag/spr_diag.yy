@@ -27,21 +27,29 @@
     {"compositeImage":{"FrameId":{"name":"02fccccc-3e74-4966-8dce-9c742cc6d2fe","path":"sprites/spr_diag/spr_diag.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"02fccccc-3e74-4966-8dce-9c742cc6d2fe","path":"sprites/spr_diag/spr_diag.yy",},"LayerId":{"name":"15220d87-3a4d-47f1-9b3d-f936f5e4fa8c","path":"sprites/spr_diag/spr_diag.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_diag","path":"sprites/spr_diag/spr_diag.yy",},"resourceVersion":"1.0","name":"02fccccc-3e74-4966-8dce-9c742cc6d2fe","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"edb6e7e0-8a5c-4576-bf8d-56c25e9e2903","path":"sprites/spr_diag/spr_diag.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"edb6e7e0-8a5c-4576-bf8d-56c25e9e2903","path":"sprites/spr_diag/spr_diag.yy",},"LayerId":{"name":"15220d87-3a4d-47f1-9b3d-f936f5e4fa8c","path":"sprites/spr_diag/spr_diag.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_diag","path":"sprites/spr_diag/spr_diag.yy",},"resourceVersion":"1.0","name":"edb6e7e0-8a5c-4576-bf8d-56c25e9e2903","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"0e7355b8-c836-4436-8b6c-08e49de75db7","path":"sprites/spr_diag/spr_diag.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"0e7355b8-c836-4436-8b6c-08e49de75db7","path":"sprites/spr_diag/spr_diag.yy",},"LayerId":{"name":"15220d87-3a4d-47f1-9b3d-f936f5e4fa8c","path":"sprites/spr_diag/spr_diag.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_diag","path":"sprites/spr_diag/spr_diag.yy",},"resourceVersion":"1.0","name":"0e7355b8-c836-4436-8b6c-08e49de75db7","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_diag","path":"sprites/spr_diag/spr_diag.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 0.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 1.0,
+    "length": 3.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"0290b320-589d-4ef6-99a9-940bb0f80ade","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"02fccccc-3e74-4966-8dce-9c742cc6d2fe","path":"sprites/spr_diag/spr_diag.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"7546e6ac-77af-4449-b8a1-0f8491b8c7eb","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"edb6e7e0-8a5c-4576-bf8d-56c25e9e2903","path":"sprites/spr_diag/spr_diag.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"48164f82-0f6a-4028-a382-fc3b83bc70c0","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0e7355b8-c836-4436-8b6c-08e49de75db7","path":"sprites/spr_diag/spr_diag.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
