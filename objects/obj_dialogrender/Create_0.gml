@@ -8,7 +8,7 @@
 #region Dialog Array
 dialogs = [
 	[
-		[DIAG_TYPE_TEXT, "Hello, World! This is a test of the textbox! 5 Is the normal speed of a textbox, but you can change it to be...", DIAG_CHAR_PLACEHOLDER, DIAG_FACE_NEUTRAL, 5],
+		[DIAG_TYPE_TEXT, "[wave][rainbow]Hello, World![/rainbow][/wave] This is a test of the textbox! 5 Is the normal speed of a textbox, but you can change it to be...", DIAG_CHAR_PLACEHOLDER, DIAG_FACE_NEUTRAL, 5],
 		[DIAG_TYPE_TEXT, "...super slow...", DIAG_CHAR_PLACEHOLDER, DIAG_FACE_NEUTRAL, 15],
 		[DIAG_TYPE_TEXT, "...or super fast!", DIAG_CHAR_PLACEHOLDER, DIAG_FACE_NEUTRAL, 2],
 		[DIAG_TYPE_CODE, function(){show_debug_message("[WARN] The British are Coming!")}],

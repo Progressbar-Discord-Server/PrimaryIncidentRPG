@@ -1,12 +1,11 @@
 /// @description
-draw_set_font(fnt_dialogue);
 if (char == DIAG_CHAR_INFO) {
 	//Special case! draw a special variation 
 	draw_sprite(spr_diag, 1, x, y)
-	draw_text_ext(x+border, y+border, text, 15, width+123)
+	draw_text_scribble_ext(x+border, y+border, text, width+123)
 } else {
 	//Text render
-	draw_text_ext(x+133+border, y+32+border, text, 15, width)
+	draw_text_scribble_ext(x+133+border, y+32+border, text, width)
 }
 
 //Icon and text render
