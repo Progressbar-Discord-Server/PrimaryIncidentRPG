@@ -22,13 +22,17 @@ switch char {
 	case DIAG_CHAR_UNKNOWN: {
 		draw_text(x+133+char_border, y + char_border, "???")
 	} break;
+	case DIAG_CHAR_INFO: {} break;
 	case DIAG_CHAR_PLACEHOLDER: {
 		draw_text(x+133+char_border, y + char_border, "[PLACEHOLDER]")
+		draw_sprite_ext(spr_placeholder_diag, charexp, x+16, y+16, 1, 1, 0, c_white, 1)
 	} break;
-	case DIAG_CHAR_INFO: {
-		//draw_text(x+5+char_border, y + char_border, "[INFO]")
+	case DIAG_CHAR_LOLGUY: {
+		draw_text(x+133+char_border, y + char_border, "lol man")
+		draw_sprite_ext(spr_lolguy_diag, 0, x+16, y+16, 1, 1, 0, c_white, 1)
 	} break;
 	default: {
 		draw_text(x+133+char_border, y + char_border, "CHAR NOT DEFINED IN DRAWGUI!!!")
+		draw_sprite_ext(spr_placeholder_diag, charexp, x+16, y+16, 1, 1, 0, c_white, 1)
 	} break;
 }

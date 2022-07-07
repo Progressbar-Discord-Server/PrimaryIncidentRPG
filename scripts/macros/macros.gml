@@ -25,5 +25,4 @@
 //Dialog - Types
 #macro DIAG_TYPE_TEXT 0
 //#macro DIAG_TYPE_CHOICE2 1
-//#macro DIAG_TYPE_CHOICE4 1.5
 #macro DIAG_TYPE_CODE 2
