@@ -97,8 +97,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "PLACEHOLDER",
+    "path": "folders/Sprites/Characters/PLACEHOLDER.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_placeholder_diag",
