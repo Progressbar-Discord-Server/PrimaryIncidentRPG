@@ -11,3 +11,11 @@ sprite_index = spr_lolguy_front
 lastFacing=3
 
 moveSpeed=2.5
+
+positions = 94;
+
+for (var i = positions-1; i >= 0; i--;) {
+	pos_x[i] = x;
+	pos_y[i] = y;
+	store_sprite[i] = sprite_index;
+}

@@ -44,3 +44,4 @@ if (place_meeting(x, y+moveY, colis)) {
 y += moveY;
 
 depth = -y
+

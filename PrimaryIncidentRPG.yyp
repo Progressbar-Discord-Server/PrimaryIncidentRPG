@@ -104,6 +104,7 @@
     {"id":{"name":"__scribble_gen_9_write_vbuffs","path":"scripts/__scribble_gen_9_write_vbuffs/__scribble_gen_9_write_vbuffs.yy",},"order":9,},
     {"id":{"name":"spr_sign","path":"sprites/spr_sign/spr_sign.yy",},"order":4,},
     {"id":{"name":"string_width_scribble_ext","path":"scripts/string_width_scribble_ext/string_width_scribble_ext.yy",},"order":5,},
+    {"id":{"name":"obj_burning_follower","path":"objects/obj_burning_follower/obj_burning_follower.yy",},"order":4,},
     {"id":{"name":"obj_editor_trigger_onInteract","path":"objects/obj_editor_trigger_onInteract/obj_editor_trigger_onInteract.yy",},"order":3,},
     {"id":{"name":"__scribble_gen_5_finalize_bidi","path":"scripts/__scribble_gen_5_finalize_bidi/__scribble_gen_5_finalize_bidi.yy",},"order":5,},
     {"id":{"name":"string_width_scribble","path":"scripts/string_width_scribble/string_width_scribble.yy",},"order":4,},
