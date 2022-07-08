@@ -12,4 +12,5 @@ function draw_rectangle_outline(x1, y1, x2, y2, color, outline_color, outline_wi
 		i++
 		draw_rectangle(x1-i,y1-i,x2+i,y2+i,true)
 	}until(i = outline_width)
+	draw_set_color(c_white)
 }
