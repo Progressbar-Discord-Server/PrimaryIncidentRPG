@@ -6,5 +6,5 @@ if x != xprevious or y != yprevious {
 	}
 	pos_x[0] = x;
 	pos_y[0] = y;
-	store_sprite[0] = sprite_index;
+	store_sprite[0] = lastFacing;
 }
