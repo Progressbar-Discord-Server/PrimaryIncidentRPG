@@ -21,6 +21,7 @@
     {"id":{"name":"scribble_font_set_style_family","path":"scripts/scribble_font_set_style_family/scribble_font_set_style_family.yy",},"order":12,},
     {"id":{"name":"scribble_msdf_thickness_offset","path":"scripts/scribble_msdf_thickness_offset/scribble_msdf_thickness_offset.yy",},"order":5,},
     {"id":{"name":"__scribble_config_behaviours","path":"scripts/__scribble_config_behaviours/__scribble_config_behaviours.yy",},"order":0,},
+    {"id":{"name":"rm_title_placeholder","path":"rooms/rm_title_placeholder/rm_title_placeholder.yy",},"order":0,},
     {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},"order":0,},
     {"id":{"name":"spr_editor_trigger_collide","path":"sprites/spr_editor_trigger_collide/spr_editor_trigger_collide.yy",},"order":1,},
     {"id":{"name":"scribble_typewriter_add_character_delay","path":"scripts/scribble_typewriter_add_character_delay/scribble_typewriter_add_character_delay.yy",},"order":6,},
@@ -73,6 +74,7 @@
     {"id":{"name":"scribble_font_add_msdf","path":"scripts/scribble_font_add_msdf/scribble_font_add_msdf.yy",},"order":3,},
     {"id":{"name":"obj_editor_trigger_singleUseOnCollide","path":"objects/obj_editor_trigger_singleUseOnCollide/obj_editor_trigger_singleUseOnCollide.yy",},"order":2,},
     {"id":{"name":"scribble","path":"scripts/scribble/scribble.yy",},"order":8,},
+    {"id":{"name":"data_manage","path":"scripts/data_manage/data_manage.yy",},"order":3,},
     {"id":{"name":"__scribble_class_page","path":"scripts/__scribble_class_page/__scribble_class_page.yy",},"order":4,},
     {"id":{"name":"scribble_font_add_from_sprite","path":"scripts/scribble_font_add_from_sprite/scribble_font_add_from_sprite.yy",},"order":2,},
     {"id":{"name":"scribble_font_has_character","path":"scripts/scribble_font_has_character/scribble_font_has_character.yy",},"order":8,},
@@ -112,6 +114,7 @@
     {"id":{"name":"__scribble_config_colours","path":"scripts/__scribble_config_colours/__scribble_config_colours.yy",},"order":1,},
     {"id":{"name":"scribble_anim_jitter","path":"scripts/scribble_anim_jitter/scribble_anim_jitter.yy",},"order":2,},
     {"id":{"name":"scribble_font_scale","path":"scripts/scribble_font_scale/scribble_font_scale.yy",},"order":10,},
+    {"id":{"name":"obj_title_placeholder","path":"objects/obj_title_placeholder/obj_title_placeholder.yy",},"order":3,},
     {"id":{"name":"spr_wolf_millers_right_idle","path":"sprites/spr_wolf_millers_right_idle/spr_wolf_millers_right_idle.yy",},"order":3,},
     {"id":{"name":"__scribble_gen_8_position_glyphs","path":"scripts/__scribble_gen_8_position_glyphs/__scribble_gen_8_position_glyphs.yy",},"order":8,},
     {"id":{"name":"scribble_anim_wheel","path":"scripts/scribble_anim_wheel/scribble_anim_wheel.yy",},"order":8,},
@@ -141,7 +144,7 @@
     {"id":{"name":"spr_wolf_millers_back","path":"sprites/spr_wolf_millers_back/spr_wolf_millers_back.yy",},"order":0,},
     {"id":{"name":"scribble_font_add_all","path":"scripts/scribble_font_add_all/scribble_font_add_all.yy",},"order":1,},
     {"id":{"name":"scribble_anim_shake","path":"scripts/scribble_anim_shake/scribble_anim_shake.yy",},"order":6,},
-    {"id":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},"order":0,},
+    {"id":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},"order":1,},
   ],
   "Options": [
     {"name":"Linux","path":"options/linux/options_linux.yy",},
@@ -157,6 +160,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_title_placeholder","path":"rooms/rm_title_placeholder/rm_title_placeholder.yy",},},
     {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
   ],
   "Folders": [

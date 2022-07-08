@@ -7,7 +7,7 @@ function startDialog(dialog_id){
 	}
 }
 
-///DO NOT CALL THIS FUNCTION!!!!
+///DO NOT CALL THIS FUNCTION BY ITSELF!!!!
 function scanText(){
 	if(textArrayPos > array_length(dialogs[dialogId])-1) instance_destroy() else {
 		targText=""
