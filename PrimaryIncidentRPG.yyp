@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"spr_wolf_millers_front_idle","path":"sprites/spr_wolf_millers_front_idle/spr_wolf_millers_front_idle.yy",},"order":1,},
     {"id":{"name":"scribble_font_bake_outline_4dir","path":"scripts/scribble_font_bake_outline_4dir/scribble_font_bake_outline_4dir.yy",},"order":0,},
+    {"id":{"name":"snd_speak_lolguy","path":"sounds/snd_speak_lolguy/snd_speak_lolguy.yy",},"order":1,},
     {"id":{"name":"spr_chris_idle_front","path":"sprites/spr_chris_idle_front/spr_chris_idle_front.yy",},"order":0,},
     {"id":{"name":"spr_diag","path":"sprites/spr_diag/spr_diag.yy",},"order":5,},
     {"id":{"name":"spr_lolguy_front","path":"sprites/spr_lolguy_front/spr_lolguy_front.yy",},"order":1,},
