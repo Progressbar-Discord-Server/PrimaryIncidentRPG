@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "spr_lolguy_editor",
-    "path": "sprites/spr_lolguy_editor/spr_lolguy_editor.yy",
+    "name": "spr_wolf_millers_front_idle",
+    "path": "sprites/spr_wolf_millers_front_idle/spr_wolf_millers_front_idle.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
-  "spriteMaskId": {
-    "name": "spr_lolguy_editor",
-    "path": "sprites/spr_lolguy_editor/spr_lolguy_editor.yy",
-  },
-  "persistent": true,
+  "spriteMaskId": null,
+  "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
@@ -26,9 +23,6 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -37,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_plr",
+  "name": "obj_burning_follower",
   "tags": [],
   "resourceType": "GMObject",
 }
