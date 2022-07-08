@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_wolf_millers_front_idle",
-    "path": "sprites/spr_wolf_millers_front_idle/spr_wolf_millers_front_idle.yy",
+    "name": "spr_wolf_millers_editor",
+    "path": "sprites/spr_wolf_millers_editor/spr_wolf_millers_editor.yy",
   },
   "solid": false,
   "visible": true,
