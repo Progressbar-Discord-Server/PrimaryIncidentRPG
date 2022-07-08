@@ -1,8 +1,10 @@
 /// @description Movement
-key_left = -keyboard_check(vk_left)
-key_up = -keyboard_check(vk_up)
-key_right = keyboard_check(vk_right)
-key_down = keyboard_check(vk_down)
+if canMove {
+	key_left = -keyboard_check(vk_left)
+	key_up = -keyboard_check(vk_up)
+	key_right = keyboard_check(vk_right)
+	key_down = keyboard_check(vk_down)
+}
 
 moveX = (key_left + key_right)*moveSpeed
 moveY = (key_up + key_down)*moveSpeed
