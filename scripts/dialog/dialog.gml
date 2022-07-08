@@ -19,7 +19,6 @@ function scanText(){
 		typist.character_delay_add("!", 100);
 		typist.character_delay_add("?", 100);
 		typist.character_delay_add(",", 100);
-		typist.sound_per_char([snd_speak_lolguy],1.0,1.0)
 		if dialogs[dialogId,textArrayPos][0] == DIAG_TYPE_CODE{
 			dialogs[dialogId,textArrayPos][1]()
 			textArrayPos++
@@ -28,6 +27,12 @@ function scanText(){
 			targText = dialogs[dialogId,textArrayPos][1]
 			char = dialogs[dialogId,textArrayPos][2]
 			charexp = dialogs[dialogId,textArrayPos][3]
+			
+			switch(char){
+				case DIAG_CHAR_LOLGUY: typist.sound_per_char([snd_speak_lolguy],1.0,1.0) break;
+				default: typist.sound_per_char([snd_speak_gen],1.0,1.0) break;	
+			}
+			
 			typist.in(dialogs[dialogId,textArrayPos][4],0); // 1st argument is speed (the higher the faster it is), 2nd argument is how the text fades in
 			textArrayPos++
 		}
