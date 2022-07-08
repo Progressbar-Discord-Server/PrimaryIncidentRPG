@@ -1,3 +1,8 @@
+/*
+	Macros are hard coded values that cannot be changed at run time or via editors like UndertaleModTool.
+	Macros are better than normal variables because they an be defined without even calling them so they can live in a file like this.
+*/
+
 #macro version "dev"
 #macro player obj_plr
 
@@ -20,7 +25,6 @@
 #macro DIAG_FACE_SCARED 5
 #macro DIAG_FACE_ANGRY 6
 #macro DIAG_FACE_WORRIED 7
-
 
 //Dialog - Types
 #macro DIAG_TYPE_TEXT 0

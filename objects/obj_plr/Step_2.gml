@@ -1,3 +1,4 @@
+/// @description Follower position updater
 if x != xprevious or y != yprevious {
 	for (var i = positions-1; i > 0; i--;) {
 		pos_x[i] = pos_x[i-1];

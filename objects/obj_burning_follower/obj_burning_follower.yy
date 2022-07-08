@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "DO-NOT-PLACE",
+    "path": "folders/Objects/DO-NOT-PLACE.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_burning_follower",

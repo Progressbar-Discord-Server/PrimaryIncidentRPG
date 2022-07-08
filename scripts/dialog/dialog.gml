@@ -1,9 +1,9 @@
 function startDialog(dialog_id){
-	if !instance_exists(obj_dialogRender) {
-		if !layer_exists(layer_get_id("Dialog")) layer_create(-1000,"Dialog")
+	if !instance_exists(obj_dialogRender) { //If the dialog box doesn't exist, run this.
+		if !layer_exists(layer_get_id("Dialog")) layer_create(-1000,"Dialog") //If the "Dialog" layer doesn't exist make it!!!
 		instance_create_layer(16, 352, layer_get_id("Dialog"), obj_dialogRender, {
 			dialogId: dialog_id
-		})
+		}) //Create the dialog render on the "Dialog" layer whiel defining dialogId to dialog_id
 	}
 }
 
