@@ -59,6 +59,7 @@
     {"id":{"name":"scribble_rgb_to_bgr","path":"scripts/scribble_rgb_to_bgr/scribble_rgb_to_bgr.yy",},"order":6,},
     {"id":{"name":"scribble_typists_add_event","path":"scripts/scribble_typists_add_event/scribble_typists_add_event.yy",},"order":7,},
     {"id":{"name":"spr_chris_idle_right","path":"sprites/spr_chris_idle_right/spr_chris_idle_right.yy",},"order":3,},
+    {"id":{"name":"draw_rectangle_outline","path":"scripts/draw_rectangle_outline/draw_rectangle_outline.yy",},"order":4,},
     {"id":{"name":"spr_editor_trigger_interact","path":"sprites/spr_editor_trigger_interact/spr_editor_trigger_interact.yy",},"order":3,},
     {"id":{"name":"__scribble_gen_6_build_lines","path":"scripts/__scribble_gen_6_build_lines/__scribble_gen_6_build_lines.yy",},"order":6,},
     {"id":{"name":"scribble_super_glyph_copy_all","path":"scripts/scribble_super_glyph_copy_all/scribble_super_glyph_copy_all.yy",},"order":3,},
