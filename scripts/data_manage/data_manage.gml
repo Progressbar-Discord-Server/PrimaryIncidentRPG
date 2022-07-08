@@ -7,7 +7,6 @@ function saveData(){
 	
 	var _saveData = {
 		hello: true
-		coins: global.Coins
 	}
 	
 	var _string = json_stringify(_saveData)
