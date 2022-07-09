@@ -1,0 +1,1 @@
+/// @description Placeholder event - Hides original box

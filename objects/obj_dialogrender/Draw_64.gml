@@ -45,6 +45,7 @@ if (char == DIAG_CHAR_INFO) {
 	scribble(targText).wrap(width+123).draw(x+border, y+border, typist) //Draws text
 } else {
 	//Text render
+	draw_sprite(spr_diag,0,x,y)
 	scribble(targText).wrap(width).draw(x+133+border, y+32+border, typist)
 }
 
