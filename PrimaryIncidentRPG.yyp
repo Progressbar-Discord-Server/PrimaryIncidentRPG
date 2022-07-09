@@ -95,6 +95,7 @@
     {"id":{"name":"spr_editor_colistile","path":"sprites/spr_editor_colistile/spr_editor_colistile.yy",},"order":0,},
     {"id":{"name":"obj_plr","path":"objects/obj_plr/obj_plr.yy",},"order":1,},
     {"id":{"name":"scribble_super_create","path":"scripts/scribble_super_create/scribble_super_create.yy",},"order":1,},
+    {"id":{"name":"COPY_ME","path":"rooms/COPY_ME/COPY_ME.yy",},"order":2,},
     {"id":{"name":"scribble_font_bake_outline_8dir_2px","path":"scripts/scribble_font_bake_outline_8dir_2px/scribble_font_bake_outline_8dir_2px.yy",},"order":2,},
     {"id":{"name":"string_height_scribble_ext","path":"scripts/string_height_scribble_ext/string_height_scribble_ext.yy",},"order":3,},
     {"id":{"name":"spr_chris_editor","path":"sprites/spr_chris_editor/spr_chris_editor.yy",},"order":0,},
@@ -163,6 +164,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_title_placeholder","path":"rooms/rm_title_placeholder/rm_title_placeholder.yy",},},
     {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
+    {"roomId":{"name":"COPY_ME","path":"rooms/COPY_ME/COPY_ME.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
