@@ -1,0 +1,3 @@
+The game's documentation can be found here: 
+
+https://github.com/Progressbar-Discord-Server/PrimaryIncidentRPG/wiki/

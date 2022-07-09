@@ -15,9 +15,9 @@ if keyboard_check_pressed(vk_enter){ //Detects enter press
 	}
 }
 
-if selectionPrompt {
+if selectionPrompt { //execute this only if this is a selection event
 	if keyboard_check_pressed(vk_left) || keyboard_check_pressed(vk_up){
-		selectedOption=0	
+		selectedOption=0
 	}
 	if keyboard_check_pressed(vk_right) || keyboard_check_pressed(vk_down){
 		selectedOption=1
