@@ -14,6 +14,8 @@ function scanText(){
 		textCharPos = 1
 		char=0
 		charexp=0
+		selectionPrompt=0
+		selectedOption=0
 		typist = scribble_typist();
 		typist.character_delay_add(".", 100);
 		typist.character_delay_add("!", 100);
@@ -24,6 +26,7 @@ function scanText(){
 			textArrayPos++
 			scanText()
 		} else {
+			if dialogs[dialogId,textArrayPos][0] == DIAG_TYPE_CHOICE selectionPrompt=1
 			targText = dialogs[dialogId,textArrayPos][1]
 			char = dialogs[dialogId,textArrayPos][2]
 			charexp = dialogs[dialogId,textArrayPos][3]
