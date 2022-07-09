@@ -35,8 +35,8 @@ if selectionPrompt { //execute this only if this is a selection event
 		//Option B is selected
 		draw_rectangle_outline(x, y-52, x+256, y-20, c_red, c_gray, 3) 
 	}
-	draw_text(x, y-96, opt1)
-	draw_text(x, y-52, opt2)
+	draw_text(x+option_border, y-96+option_border, opt1)
+	draw_text(x+option_border, y-52+option_border, opt2)
 }
 
 if (char == DIAG_CHAR_INFO) {

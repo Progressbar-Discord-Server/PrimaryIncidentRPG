@@ -38,6 +38,7 @@ pauseTime = 20;
 pauseTimer = 0;
 name_box_offset = 32 * 5;
 char=0
+option_border = 10;
 charexp=0
 selectionPrompt=0
 selectedOption=0
