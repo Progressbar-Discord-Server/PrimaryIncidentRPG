@@ -11,6 +11,8 @@ function startDialog(dialog_id){
 function scanText(){
 	if(textArrayPos > array_length(dialogs[dialogId])-1) instance_destroy() else {
 		targText=""
+		opt1=""
+		opt2=""
 		textCharPos = 1
 		char=0
 		charexp=0
@@ -26,7 +28,11 @@ function scanText(){
 			textArrayPos++
 			scanText()
 		} else {
-			if dialogs[dialogId,textArrayPos][0] == DIAG_TYPE_CHOICE selectionPrompt=1
+			if dialogs[dialogId,textArrayPos][0] == DIAG_TYPE_CHOICE {
+				selectionPrompt=1
+				opt1 = dialogs[dialogId,textArrayPos][5]
+				opt2 = dialogs[dialogId,textArrayPos][7]
+			}
 			targText = dialogs[dialogId,textArrayPos][1]
 			char = dialogs[dialogId,textArrayPos][2]
 			charexp = dialogs[dialogId,textArrayPos][3]

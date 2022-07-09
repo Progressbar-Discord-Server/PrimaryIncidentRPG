@@ -35,6 +35,8 @@ if selectionPrompt {
 		//Option B is selected
 		draw_rectangle_outline(x, y-52, x+256, y-20, c_red, c_gray, 3) 
 	}
+	draw_text(x, y-96, opt1)
+	draw_text(x, y-52, opt2)
 }
 
 if (char == DIAG_CHAR_INFO) {

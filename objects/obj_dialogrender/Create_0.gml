@@ -41,6 +41,8 @@ char=0
 charexp=0
 selectionPrompt=0
 selectedOption=0
+opt1=""
+opt2=""
 
 //lock player movement
 obj_plr.canMove=0
