@@ -14,6 +14,8 @@ moveSpeed=2.5 //how many pixels/sec the player moves
 
 positions = 64; //how close the followers are to the player.
 
+canMove=1
+
 for (var i = positions-1; i >= 0; i--;) {
 	pos_x[i] = x;
 	pos_y[i] = y;

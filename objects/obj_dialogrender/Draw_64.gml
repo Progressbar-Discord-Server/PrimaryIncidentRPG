@@ -2,11 +2,41 @@
 
 if keyboard_check_pressed(vk_enter){ //Detects enter press
 	if typist.get_state() == 1 { //check if text is done
+		if selectionPrompt {
+			textArrayPos--
+			if selectedOption == 0 {dialogId = dialogs[dialogId,textArrayPos][6];}
+			if selectedOption == 1 {dialogId = dialogs[dialogId,textArrayPos][8];}
+			textArrayPos=0
+		}
 		typist.reset(); //clear typist
 		scanText() //read next line
 	} else {
 		typist.skip(); //if it's still typing skip to the end!
 	}
+}
+
+if selectionPrompt { //execute this only if this is a selection event
+	if keyboard_check_pressed(vk_left) || keyboard_check_pressed(vk_up){
+		selectedOption=0
+	}
+	if keyboard_check_pressed(vk_right) || keyboard_check_pressed(vk_down){
+		selectedOption=1
+	}
+	if selectedOption = 0 {
+		//Option A is selected
+		draw_rectangle_outline(x, y-96, x+256, y-64, c_red, c_gray, 3) 
+		
+		//Option B is not selected
+		draw_rectangle_outline(x, y-52, x+256, y-20, c_dkgray, c_gray, 3) 
+	} else {
+		//Option A is not selected
+		draw_rectangle_outline(x, y-96, x+256, y-64, c_dkgray, c_gray, 3) 
+		
+		//Option B is selected
+		draw_rectangle_outline(x, y-52, x+256, y-20, c_red, c_gray, 3) 
+	}
+	draw_text(x, y-96, opt1)
+	draw_text(x, y-52, opt2)
 }
 
 if (char == DIAG_CHAR_INFO) {
