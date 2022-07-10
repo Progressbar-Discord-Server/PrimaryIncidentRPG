@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Other",
-    "path": "folders/Sprites/Other.yy",
+    "name": "triggers",
+    "path": "folders/Sprites/Other/triggers.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_editor_trigger_collide",

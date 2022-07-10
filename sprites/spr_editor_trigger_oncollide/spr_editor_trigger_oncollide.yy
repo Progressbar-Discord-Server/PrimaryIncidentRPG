@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"7ef6f644-2304-4b66-9a36-760a3dd4cb66","path":"sprites/spr_editor_trigger_singlecollide/spr_editor_trigger_singlecollide.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7ef6f644-2304-4b66-9a36-760a3dd4cb66","path":"sprites/spr_editor_trigger_singlecollide/spr_editor_trigger_singlecollide.yy",},"LayerId":{"name":"edf8b8cb-9a39-4018-b8ef-ca1c10ba42ce","path":"sprites/spr_editor_trigger_singlecollide/spr_editor_trigger_singlecollide.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_editor_trigger_singlecollide","path":"sprites/spr_editor_trigger_singlecollide/spr_editor_trigger_singlecollide.yy",},"resourceVersion":"1.0","name":"7ef6f644-2304-4b66-9a36-760a3dd4cb66","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"7ef6f644-2304-4b66-9a36-760a3dd4cb66","path":"sprites/spr_editor_trigger_onCollide/spr_editor_trigger_onCollide.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7ef6f644-2304-4b66-9a36-760a3dd4cb66","path":"sprites/spr_editor_trigger_onCollide/spr_editor_trigger_onCollide.yy",},"LayerId":{"name":"edf8b8cb-9a39-4018-b8ef-ca1c10ba42ce","path":"sprites/spr_editor_trigger_onCollide/spr_editor_trigger_onCollide.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_editor_trigger_onCollide","path":"sprites/spr_editor_trigger_onCollide/spr_editor_trigger_onCollide.yy",},"resourceVersion":"1.0","name":"7ef6f644-2304-4b66-9a36-760a3dd4cb66","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_editor_trigger_singlecollide","path":"sprites/spr_editor_trigger_singlecollide/spr_editor_trigger_singlecollide.yy",},
+    "spriteId": {"name":"spr_editor_trigger_onCollide","path":"sprites/spr_editor_trigger_onCollide/spr_editor_trigger_onCollide.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"c3e81471-1cce-4b56-8195-225fb8d186d2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7ef6f644-2304-4b66-9a36-760a3dd4cb66","path":"sprites/spr_editor_trigger_singlecollide/spr_editor_trigger_singlecollide.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"e11b5258-b3f6-42a1-9638-95505696c427","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7ef6f644-2304-4b66-9a36-760a3dd4cb66","path":"sprites/spr_editor_trigger_onCollide/spr_editor_trigger_onCollide.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_editor_trigger_singlecollide","path":"sprites/spr_editor_trigger_singlecollide/spr_editor_trigger_singlecollide.yy",},
+    "parent": {"name":"spr_editor_trigger_onCollide","path":"sprites/spr_editor_trigger_onCollide/spr_editor_trigger_onCollide.yy",},
     "resourceVersion": "1.4",
-    "name": "spr_editor_trigger_singlecollide",
+    "name": "spr_editor_trigger_onCollide",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/Other/triggers.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_editor_trigger_singlecollide",
+  "name": "spr_editor_trigger_onCollide",
   "tags": [],
   "resourceType": "GMSprite",
 }
