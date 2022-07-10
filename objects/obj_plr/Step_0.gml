@@ -28,7 +28,7 @@ if -key_left {
 	lastFacing=3
 }
 
-if moveX + moveY = 0 {
+if moveX == 0 && moveY == 0 {
 	switch lastFacing {
 		case 0: sprite_index = spr_lolguy_idle_left break;	
 		case 1: sprite_index = spr_lolguy_idle_right break;	
