@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_editor_trigger_singlecollide",
-    "path": "sprites/spr_editor_trigger_singlecollide/spr_editor_trigger_singlecollide.yy",
+    "name": "spr_editor_trigger_onCollide",
+    "path": "sprites/spr_editor_trigger_onCollide/spr_editor_trigger_onCollide.yy",
   },
   "solid": false,
   "visible": true,
