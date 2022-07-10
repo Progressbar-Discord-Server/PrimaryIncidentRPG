@@ -24,7 +24,7 @@
   "creationCodeFile": "${project_dir}/rooms/rm_test/RoomCreationCode.gml",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_6D63F073","path":"rooms/COPY_ME/COPY_ME.yy",},
+    {"name":"inst_6D63F073","path":"rooms/TEMPLATE_COPY_ME/TEMPLATE_COPY_ME.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
@@ -52,7 +52,7 @@
     "path": "folders/Rooms.yy",
   },
   "resourceVersion": "1.0",
-  "name": "COPY_ME",
+  "name": "TEMPLATE_COPY_ME",
   "tags": [],
   "resourceType": "GMRoom",
 }
