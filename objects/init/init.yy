@@ -1,15 +1,9 @@
 {
-  "spriteId": {
-    "name": "spr_lolguy_editor",
-    "path": "sprites/spr_lolguy_editor/spr_lolguy_editor.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
-  "spriteMaskId": {
-    "name": "spr_lolguy_editor",
-    "path": "sprites/spr_lolguy_editor/spr_lolguy_editor.yy",
-  },
+  "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
@@ -25,18 +19,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "DO-NOT-PLACE",
+    "path": "folders/Objects/DO-NOT-PLACE.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_plr",
+  "name": "init",
   "tags": [],
   "resourceType": "GMObject",
 }
