@@ -6,20 +6,17 @@ function loadData(){
 		
 		var _loadData = json_parse(_string)
 		
-		show_debug_message(_loadData)
+		global.saveData = _loadData
+		show_debug_message(global.saveData.saveCreatedVersion)
 		
 		show_debug_message("===Loaded!===")
 	}
 }
 
 function saveData(){
-	var _saveData = {
-		saveCreatedVersion: version,
-		currentRoom: room,
-		
-	}
+	global.saveData.currentRoom = room
 	
-	var _string = json_stringify(_saveData)
+	var _string = json_stringify(global.saveData)
 	var _buffer = buffer_create(string_byte_length(_string)+1, buffer_fixed, 1)
 	buffer_write(_buffer, buffer_string, _string)
 	buffer_save(_buffer, "savedata.sav")
