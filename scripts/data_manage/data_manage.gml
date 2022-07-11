@@ -10,6 +10,8 @@ function loadData(){
 		show_debug_message(global.saveData.saveCreatedVersion)
 		
 		show_debug_message("===Loaded!===")
+	} else {
+		show_debug_message("SAVE DOES NOT EXIST")	
 	}
 }
 
@@ -26,4 +28,19 @@ function saveData(){
 function deleteData(){
 	file_delete("savedata.sav")	
 	show_debug_message("===Deleted!===")
+}
+
+function getSaveInfo(){
+	if file_exists("savedata.sav"){
+		var _buffer = buffer_load("savedata.sav")
+		var _string = buffer_read(_buffer, buffer_string)
+		buffer_delete(_buffer)
+		
+		var _loadData = json_parse(_string)
+		
+		return "Save Exists!"
+		
+	} else {
+		return "Save Data does not exist!!!"	
+	}
 }
