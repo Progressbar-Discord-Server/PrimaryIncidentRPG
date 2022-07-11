@@ -1,2 +1,2 @@
 instance_destroy();
-global.Coins++;
+global.saveData.coins++
