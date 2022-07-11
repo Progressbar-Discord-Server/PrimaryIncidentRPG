@@ -1,3 +1,3 @@
 interactEvent= function(){
-	startDialog(1)
+	startDialog(2)
 }

@@ -10,7 +10,16 @@ function defineDialogs() {
 	],
 	[
 		[DIAG_TYPE_TEXT, "[shake]Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris condimentum vulputate velit eget aliquam. Phasellus ornare accumsan purus a mollis. Donec id volutpat elit. Fusce pellentesque enim et nulla eleifend, ut ultrices lorem facilisis. Fusce vestibulum tincidunt tempor. Aenean ut eros arcu. In eget massa dictum, vehicula purus faucibus, pretium metus. Vestibulum vulputate consequat diam, vitae imperdiet erat fermentum sed. Curabitur maximus enim quis erat congue, nec tempus ante luctus. Donec porta, mi at commodo hendrerit, nisl urna mattis nibh, id tincidunt neque tortor sed purus. Pellentesque mattis sapien eu rutrum pulvinar. Ut eu dapibus metus. Fusce fringilla elit enim, in fringilla felis feugiat eget. Quisque ac massa non ipsum venenatis malesuada. Nullam in pharetra felis, sed dapibus turpis.[/shake]", DIAG_CHAR_INFO, DIAG_FACE_ANNOYED, 0.1]
-	]
+	],
+	//Save Dialogs
+	[ //Initial Dialog
+		[DIAG_TYPE_CHOICE, getLocal("str_save_0"), DIAG_CHAR_INFO, DIAG_FACE_NEUTRAL, 0.5, getLocal("str_yes"), 3, getLocal("str_no"), 4]
+	],
+	[//Yes
+		[DIAG_TYPE_CODE, function(){saveData();}],
+		[DIAG_TYPE_TEXT, getLocal("str_save_1"), DIAG_CHAR_INFO, DIAG_FACE_NEUTRAL, 0.5]
+	],
+	[]//No - Show nothing.
 ]	
 }
 
