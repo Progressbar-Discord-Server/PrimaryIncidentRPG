@@ -1,4 +1,4 @@
-if obj_plr.moveX + obj_plr.moveY = 0 {
+if obj_plr.moveX == 0 && obj_plr.moveY == 0 {
 		switch obj_plr.store_sprite[20] {
 		#region //long ass code
 		case 2:
