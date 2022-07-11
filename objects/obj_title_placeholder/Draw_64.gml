@@ -4,6 +4,6 @@ draw_text(x, y, "Primary Incident RPG Temporary Boot Menu\n\n=====\n" + saveinfo
 draw_set_halign(fa_left)
 
 if keyboard_check_pressed(ord("1")) {saveData(); room_goto_next()}
-if keyboard_check_pressed(ord("2")) {loadData(); room_goto(global.saveData.currentRoom)}
+if keyboard_check_pressed(ord("2")) {loadData(); room_goto_string(global.saveData.currentRoom)}
 if keyboard_check_pressed(ord("3")) deleteData();
 if keyboard_check_pressed(vk_space) room_goto_next()

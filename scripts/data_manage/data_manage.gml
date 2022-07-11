@@ -16,7 +16,7 @@ function loadData(){
 }
 
 function saveData(){
-	global.saveData.currentRoom = room
+	global.saveData.currentRoom = room_get_name(room)
 	
 	var _string = json_stringify(global.saveData)
 	var _buffer = buffer_create(string_byte_length(_string)+1, buffer_fixed, 1)
@@ -42,5 +42,11 @@ function getSaveInfo(){
 		
 	} else {
 		return "Save Data does not exist!!!"	
+	}
+}
+
+function room_goto_string(roomname){
+	if is_string(roomname){room_goto(asset_get_index(roomname))} else {
+		show_error("roomname must be a string!", true)	
 	}
 }

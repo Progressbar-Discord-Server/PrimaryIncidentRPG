@@ -120,6 +120,7 @@
     {"id":{"name":"__scribble_config_colours","path":"scripts/__scribble_config_colours/__scribble_config_colours.yy",},"order":1,},
     {"id":{"name":"scribble_anim_jitter","path":"scripts/scribble_anim_jitter/scribble_anim_jitter.yy",},"order":2,},
     {"id":{"name":"scribble_font_scale","path":"scripts/scribble_font_scale/scribble_font_scale.yy",},"order":10,},
+    {"id":{"name":"rm_battle","path":"rooms/rm_battle/rm_battle.yy",},"order":4,},
     {"id":{"name":"obj_title_placeholder","path":"objects/obj_title_placeholder/obj_title_placeholder.yy",},"order":3,},
     {"id":{"name":"spr_wolf_millers_right_idle","path":"sprites/spr_wolf_millers_right_idle/spr_wolf_millers_right_idle.yy",},"order":3,},
     {"id":{"name":"__scribble_gen_8_position_glyphs","path":"scripts/__scribble_gen_8_position_glyphs/__scribble_gen_8_position_glyphs.yy",},"order":8,},
@@ -169,6 +170,7 @@
     {"roomId":{"name":"rm_title_placeholder","path":"rooms/rm_title_placeholder/rm_title_placeholder.yy",},},
     {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
     {"roomId":{"name":"TEMPLATE_COPY_ME","path":"rooms/TEMPLATE_COPY_ME/TEMPLATE_COPY_ME.yy",},},
+    {"roomId":{"name":"rm_battle","path":"rooms/rm_battle/rm_battle.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -224,6 +226,7 @@
   ],
   "IncludedFiles": [
     {"CopyToMask":-1,"filePath":"datafiles/res","resourceVersion":"1.0","name":"strings.ini","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles/res","resourceVersion":"1.0","name":"credits.txt","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
     "IDEVersion": "2022.6.0.23",

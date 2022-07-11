@@ -19,7 +19,7 @@ keyboard_set_map(ord("C"), vk_control)
 //Save data
 global.saveData={
 	saveCreatedVersion: version,
-	currentRoom: room,
+	currentRoom: room_get_name(room),
 	coins: 0
 }
 
