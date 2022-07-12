@@ -30,6 +30,7 @@ option_border = 10;
 charexp=0
 selectionPrompt=0
 selectedOption=0
+enterDelay=5
 opt1=""
 opt2=""
 

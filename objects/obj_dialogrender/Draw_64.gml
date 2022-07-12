@@ -1,6 +1,6 @@
 /// @description Rendering + key presses
-
-if keyboard_check_pressed(vk_enter){ //Detects enter press
+if !enterDelay==0 enterDelay--
+if keyboard_check_pressed(vk_enter) && enterDelay=0{ //Detects enter press
 	if typist.get_state() == 1 { //check if text is done
 		if selectionPrompt {
 			textArrayPos--
