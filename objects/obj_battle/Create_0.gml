@@ -13,7 +13,8 @@ battle = {
 		charName: "",
 		charSpr: undefined,
 		HP: 1,
-		attacks:{
+		baseAttack: 1,
+		abilities:{
 			1:{
 				name: undefined,
 				desc: undefined,
@@ -53,7 +54,8 @@ battle = {
 		charName: "",
 		charSpr: undefined,
 		HP: 1,
-		attacks:{
+		baseAttack: 1,
+		abilities:{
 			1:{
 				name: undefined,
 				desc: undefined,
@@ -94,7 +96,8 @@ battle = {
 		charName: "",
 		charSpr: undefined,
 		HP: 1,
-		attacks:{
+		baseAttack: 1,
+		abilities:{
 			1:{
 				name: undefined,
 				desc: undefined,
@@ -137,7 +140,8 @@ switch(battle.plrA.char){
 		battle.plrA.charName = "Lol Guy"
 		battle.plrA.charSpr = spr_lolguy_front
 		battle.plrA.HP = 140
-		battle.plrA.attacks = {
+		battle.plrA.baseAttack = 1
+		battle.plrA.abilities = {
 			1:{
 				name: "wowie",
 				desc: "youou do damnage",
