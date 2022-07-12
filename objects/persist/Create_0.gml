@@ -23,6 +23,13 @@ global.saveData={
 	coins: 0
 }
 
+battleConf = {
+	plrA: DIAG_CHAR_LOLGUY,
+	plrB: DIAG_CHAR_BURNING,
+	against: DIAG_CHAR_CHRIS,
+	returnRoom: 0
+}
+
 quitGame=0
 
 room_goto_next()
