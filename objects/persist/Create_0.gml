@@ -33,6 +33,9 @@ battleConf = {
 	returnRoom: 0
 }
 
+global.Inventroy = [];
+global.Menu = false;
+
 quitGame=0
 
 room_goto_next()

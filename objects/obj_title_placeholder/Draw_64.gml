@@ -1,4 +1,5 @@
 /// @description
+draw_set_font(fnt_dialogue)
 draw_set_halign(fa_center)
 draw_text(x, y, "Primary Incident RPG Temporary Boot Menu\n\n=====\n" + saveinfo + "\n=====\n\n[1] New Save\n[2] Load Save\n[3] Delete Save\n[SPACE] Continue without loading\n\n===Controls - Work In Progress===\n[Z | ENTER] - Interact/Confirm\n[X | SHIFT] - Cancel\n[C | Ctrl] - Menu\n[HOLD ESC] - Exit\n=================================\n\n\nBuild Date: " + buildDate)
 draw_set_halign(fa_left)

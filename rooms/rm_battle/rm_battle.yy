@@ -31,7 +31,7 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_61545506","path":"rooms/rm_battle/rm_battle.yy",},
+    {"name":"rm_battle","path":"rooms/rm_battle/rm_battle.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
