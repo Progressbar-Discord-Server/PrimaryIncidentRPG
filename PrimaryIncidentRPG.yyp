@@ -48,6 +48,7 @@
     {"id":{"name":"spr_chris_idle_left","path":"sprites/spr_chris_idle_left/spr_chris_idle_left.yy",},"order":2,},
     {"id":{"name":"__scribble_config_defaults","path":"scripts/__scribble_config_defaults/__scribble_config_defaults.yy",},"order":2,},
     {"id":{"name":"scribble_anim_wave","path":"scripts/scribble_anim_wave/scribble_anim_wave.yy",},"order":7,},
+    {"id":{"name":"spr_battle","path":"sprites/spr_battle/spr_battle.yy",},"order":2,},
     {"id":{"name":"scribble_typewriter_add_event","path":"scripts/scribble_typewriter_add_event/scribble_typewriter_add_event.yy",},"order":7,},
     {"id":{"name":"spr_wolf_millers_editor","path":"sprites/spr_wolf_millers_editor/spr_wolf_millers_editor.yy",},"order":2,},
     {"id":{"name":"spr_lolguy_back","path":"sprites/spr_lolguy_back/spr_lolguy_back.yy",},"order":0,},

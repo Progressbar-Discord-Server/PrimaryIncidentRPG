@@ -5,49 +5,15 @@ plrA = persist.battleConf.plrA
 plrB = persist.battleConf.plrB
 against = persist.battleConf.against
 
-//Define base struct (LONG!)
+//Define base struct
 battle = {
-	stage:{}
 	plrA:{
 		char: persist.battleConf.plrA,
 		charName: "",
 		charSpr: undefined,
 		HP: 1,
 		baseAttack: 1,
-		abilities:{
-			1:{
-				name: undefined,
-				desc: undefined,
-				winPercent: undefined,
-				damage: undefined,
-				winMSG: "",
-				failMSG: ""
-			},
-			2:{
-				name: undefined,
-				desc: undefined,
-				winPercent: undefined,
-				damage: undefined,
-				winMSG: "",
-				failMSG: ""
-			},
-			3:{
-				name: undefined,
-				desc: undefined,
-				winPercent: undefined,
-				damage: undefined,
-				winMSG: "",
-				failMSG: ""
-			},
-			4:{
-				name: undefined,
-				desc: undefined,
-				winPercent: undefined,
-				damage: undefined,
-				winMSG: "",
-				failMSG: ""
-			},
-		}
+		abilities:[]
 	},
 	plrB:{
 		char: persist.battleConf.plrB,
@@ -55,40 +21,7 @@ battle = {
 		charSpr: undefined,
 		HP: 1,
 		baseAttack: 1,
-		abilities:{
-			1:{
-				name: undefined,
-				desc: undefined,
-				winPercent: undefined,
-				damage: undefined,
-				winMSG: "",
-				failMSG: ""
-			},
-			2:{
-				name: undefined,
-				desc: undefined,
-				winPercent: undefined,
-				damage: undefined,
-				winMSG: "",
-				failMSG: ""
-			},
-			3:{
-				name: undefined,
-				desc: undefined,
-				winPercent: undefined,
-				damage: undefined,
-				winMSG: "",
-				failMSG: ""
-			},
-			4:{
-				name: undefined,
-				desc: undefined,
-				winPercent: undefined,
-				damage: undefined,
-				winMSG: "",
-				failMSG: ""
-			},
-		}
+		abilities:[]
 	},
 	against:{
 		char: persist.battleConf.against,
@@ -97,40 +30,7 @@ battle = {
 		charSpr: undefined,
 		HP: 1,
 		baseAttack: 1,
-		abilities:{
-			1:{
-				name: undefined,
-				desc: undefined,
-				winPercent: undefined,
-				damage: undefined,
-				winMSG: "",
-				failMSG: ""
-			},
-			2:{
-				name: undefined,
-				desc: undefined,
-				winPercent: undefined,
-				damage: undefined,
-				winMSG: "",
-				failMSG: ""
-			},
-			3:{
-				name: undefined,
-				desc: undefined,
-				winPercent: undefined,
-				damage: undefined,
-				winMSG: "",
-				failMSG: ""
-			},
-			4:{
-				name: undefined,
-				desc: undefined,
-				winPercent: undefined,
-				damage: undefined,
-				winMSG: "",
-				failMSG: ""
-			},
-		}
+		abilities:[]
 	}
 }
 
@@ -141,8 +41,8 @@ switch(battle.plrA.char){
 		battle.plrA.charSpr = spr_lolguy_front
 		battle.plrA.HP = 140
 		battle.plrA.baseAttack = 1
-		battle.plrA.abilities = {
-			1:{
+		battle.plrA.abilities = [
+			{
 				name: "wowie",
 				desc: "youou do damnage",
 				winPercent: 85,
@@ -150,6 +50,6 @@ switch(battle.plrA.char){
 				winMSG: "u did the damng",
 				failMSG: "u failed lolol"
 			}
-		}
+		]
 	} break;
 }
