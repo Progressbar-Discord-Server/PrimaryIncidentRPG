@@ -1,4 +1,4 @@
-/// @description Define stage and shit
+/// @description Define more battle params
 
 //Define base struct
 battle = {
@@ -37,7 +37,7 @@ while targvar != "DONE" {
 	switch(currvar.char){
 		case DIAG_CHAR_LOLGUY: {
 			currvar.charName = "Lol Guy"
-			currvar.charSpr = spr_lolguy_front
+			currvar.charSpr = spr_placeholder_battle
 			currvar.HP = 140
 			currvar.baseAttack = 124
 			currvar.abilities = [
@@ -53,7 +53,7 @@ while targvar != "DONE" {
 		} break;
 		default: {
 			currvar.charName = "Template"
-			currvar.charSpr = spr_placeholder_diag
+			currvar.charSpr = spr_placeholder_battle
 			currvar.HP = 1
 			currvar.baseAttack = 124
 			currvar.abilities = [
