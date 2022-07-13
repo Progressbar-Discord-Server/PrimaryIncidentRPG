@@ -20,7 +20,8 @@ keyboard_set_map(ord("C"), vk_control)
 global.saveData={
 	saveCreatedVersion: version,
 	currentRoom: room_get_name(room),
-	coins: 0
+	coins: 0,
+	battlesWon:{}
 }
 
 battleConf = {
