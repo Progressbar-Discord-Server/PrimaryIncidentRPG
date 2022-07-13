@@ -1,6 +1,6 @@
 /// @description Define more battle params
 
-//Define base struct
+//Define base struct - only modify char
 battle = {
 	plrA:{
 		char: persist.battleConf.plrA,
@@ -52,7 +52,7 @@ while targvar != "DONE" {
 			]
 		} break;
 		default: {
-			currvar.charName = "Template"
+			currvar.charName = "Placeholder//Undefined"
 			currvar.charSpr = spr_placeholder_battle
 			currvar.HP = 1
 			currvar.baseAttack = 124

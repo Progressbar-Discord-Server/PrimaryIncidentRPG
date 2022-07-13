@@ -1,4 +1,4 @@
-/// @description Draw players
+/// @description Draw players - Do it here for "depth" and "separation"
 
 //plrA
 draw_sprite_ext(battle.plrA.charSpr, 0, 96, 338, 1, 1, 0, c_white, 1)

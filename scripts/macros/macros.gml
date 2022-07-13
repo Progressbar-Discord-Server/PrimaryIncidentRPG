@@ -4,6 +4,8 @@
 */
 
 #macro version "0.0.1-dev" //HAS to be a string!!!
+#macro buildDate date_date_string(GM_build_date) + " " + date_time_string(GM_build_date)
+//Shortcuts
 #macro player obj_plr //shortcut to obj_plr
 
 //Dialog - Char
