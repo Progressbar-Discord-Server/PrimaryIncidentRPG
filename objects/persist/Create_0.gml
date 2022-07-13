@@ -21,6 +21,8 @@ global.saveData={
 	saveCreatedVersion: version,
 	currentRoom: room_get_name(room),
 	coins: 0,
+	inventroy:[],
+	party:["lol-guy"],
 	battlesWon:{}
 }
 
