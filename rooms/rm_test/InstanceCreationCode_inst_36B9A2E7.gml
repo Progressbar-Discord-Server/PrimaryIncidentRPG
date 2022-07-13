@@ -1,3 +1,3 @@
 interactEvent = function() {
-	show_debug_message("Hi mom")	
+	startBattle(DIAG_CHAR_LOLGUY,DIAG_CHAR_LOLGUY,DIAG_CHAR_LOLGUY)	
 }
