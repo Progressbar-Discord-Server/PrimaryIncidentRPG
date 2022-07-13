@@ -3,8 +3,8 @@
 	Macros are better than normal variables because they an be defined without even calling them so they can live in a file like this.
 */
 
-#macro version "dev"
-#macro player obj_plr
+#macro version "0.0.1-dev" //HAS to be a string!!!
+#macro player obj_plr //shortcut to obj_plr
 
 //Dialog - Char
 #macro DIAG_CHAR_PLACEHOLDER -1
