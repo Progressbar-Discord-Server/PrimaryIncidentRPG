@@ -38,7 +38,7 @@ function getSaveInfo(){
 		
 		var _loadData = json_parse(_string)
 		
-		return "Save Exists!\nCreated Version: " + _loadData.saveCreatedVersion + "\nLast Room: " + _loadData.currentRoom
+		return "Save Exists!\nCreated Version: " + _loadData.saveCreatedVersion + "\nLast Room: " + room_get_name(_loadData.currentRoom)
 		
 	} else {
 		return "Save Data does not exist!!!"	
