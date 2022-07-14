@@ -3,19 +3,20 @@
 // Options and stuff
 options = [
 	["Inventory", undefined],
+	["Stats", undefined],
 	["Party", undefined],
 	["Settings", [
 			["Fullscreen",undefined]
 		]
 	],
-	["Return to menu", undefined]
+	["Return to title", function(){game_restart()}]
 ];
 
 pos = 0
 
 //More stuff
 txt_border = 14;
-txt_sep = 26;
+txt_sep = 32;
 offset_x = 32;
 offset_y = 32;
 
