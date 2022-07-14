@@ -19,6 +19,9 @@ keyboard_set_map(ord("C"), vk_control)
 //Save data
 global.saveData={
 	saveCreatedVersion: version,
+	settings: {
+		windowMode: 0,
+	},
 	currentRoom: room_get_name(room),
 	coins: 0,
 	inventroy:[],
