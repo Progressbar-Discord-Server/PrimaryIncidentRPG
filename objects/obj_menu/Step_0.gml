@@ -4,7 +4,7 @@ key_accept = keyboard_check_pressed(vk_enter);
 
 pos += key_down - key_up;
 
-pos = loop(pos,0,array_length(options)-1)
+pos = wrapAround(pos,0,array_length(options)-1)
 
 if key_accept {
 	if options[pos, 1] != noone {
@@ -17,7 +17,6 @@ if key_accept {
 	}
 }
 
-if keyboard_check_pressed(vk_shift) {
+if keyboard_check_pressed(vk_control) {
 	instance_destroy();
-	global.Menu = false;
 }
