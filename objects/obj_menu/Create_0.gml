@@ -4,10 +4,11 @@
 options = [
 	["Inventory", noone],
 	["Settings", [
-			["Fullscreen",optionscript_fullscreen]
+			["Fullscreen",noone]
 		]
 	],
-	["Party", noone]
+	["Party", noone],
+	["sex", noone]
 ];
 
 pos = 0
@@ -20,3 +21,4 @@ offset_y = 32;
 
 width = 13.5*find_longest_string_length_2d(options,0) + (txt_border*2);
 height = (txt_sep*array_length(options)) + (txt_border*2);
+
