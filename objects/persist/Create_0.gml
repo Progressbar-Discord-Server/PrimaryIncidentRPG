@@ -1,5 +1,6 @@
 /// @description Initialization - THIS IS THE INIT OBJECT!!!
 randomize() //random moment
+audio_group_load(audiogroup_default)
 show_debug_message("==================\n Primary Incident\n==================")
 scribble_font_set_default("fnt_dialogue")
 draw_set_font(fnt_dialogue)

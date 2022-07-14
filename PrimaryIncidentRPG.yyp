@@ -82,6 +82,7 @@
     {"id":{"name":"scribble_font_add_msdf","path":"scripts/scribble_font_add_msdf/scribble_font_add_msdf.yy",},"order":3,},
     {"id":{"name":"obj_editor_trigger_singleUseOnCollide","path":"objects/obj_editor_trigger_singleUseOnCollide/obj_editor_trigger_singleUseOnCollide.yy",},"order":2,},
     {"id":{"name":"scribble","path":"scripts/scribble/scribble.yy",},"order":8,},
+    {"id":{"name":"snd_btn_focus","path":"sounds/snd_btn_focus/snd_btn_focus.yy",},"order":0,},
     {"id":{"name":"data_manage","path":"scripts/data_manage/data_manage.yy",},"order":3,},
     {"id":{"name":"__scribble_class_page","path":"scripts/__scribble_class_page/__scribble_class_page.yy",},"order":4,},
     {"id":{"name":"scribble_font_add_from_sprite","path":"scripts/scribble_font_add_from_sprite/scribble_font_add_from_sprite.yy",},"order":2,},
@@ -98,6 +99,7 @@
     {"id":{"name":"snd_speak_gen","path":"sounds/snd_speak_gen/snd_speak_gen.yy",},"order":0,},
     {"id":{"name":"spr_coin","path":"sprites/spr_coin/spr_coin.yy",},"order":7,},
     {"id":{"name":"scribble_external_sound_exists","path":"scripts/scribble_external_sound_exists/scribble_external_sound_exists.yy",},"order":1,},
+    {"id":{"name":"snd_btn_click","path":"sounds/snd_btn_click/snd_btn_click.yy",},"order":1,},
     {"id":{"name":"__scribble_class_element","path":"scripts/__scribble_class_element/__scribble_class_element.yy",},"order":0,},
     {"id":{"name":"camera","path":"objects/camera/camera.yy",},"order":5,},
     {"id":{"name":"spr_editor_colistile","path":"sprites/spr_editor_colistile/spr_editor_colistile.yy",},"order":0,},
@@ -226,6 +228,7 @@
     {"folderPath":"folders/Sprites/Characters/PLACEHOLDER.yy","order":4,"resourceVersion":"1.0","name":"PLACEHOLDER","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Other/triggers.yy","order":1,"resourceVersion":"1.0","name":"triggers","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/battle.yy","order":3,"resourceVersion":"1.0","name":"battle","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sounds/SFX.yy","order":2,"resourceVersion":"1.0","name":"SFX","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
