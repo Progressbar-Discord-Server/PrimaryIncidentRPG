@@ -1,7 +1,7 @@
 //Draw the box
 draw_sprite_ext(spr_gui,0,offset_x,offset_y,width/32,height/32,0,c_white,1);
 
-//Draw the text god damnit
+//Draw menu text
 draw_set_font(fnt_menu)
 for (var i = 0; i < array_length(options); i++;) {
 	var check = (pos = i);
