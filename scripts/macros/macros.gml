@@ -5,8 +5,12 @@
 
 #macro version "0.0.1-dev" //HAS to be a string!!!
 #macro buildDate date_date_string(GM_build_date) + " " + date_time_string(GM_build_date)
+
 //Shortcuts
 #macro player obj_plr //shortcut to obj_plr
+#macro KEY_INTERACT vk_enter
+#macro KEY_CANCEL vk_shift
+#macro KET_MENU vk_control
 
 //Dialog - Char
 #macro DIAG_CHAR_PLACEHOLDER -1
