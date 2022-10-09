@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_lolguy_idle_back",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 32,
   "height": 32,
   "textureGroupId": {
@@ -24,15 +28,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"1521f646-fa49-4931-8e80-accea00a6b37","path":"sprites/spr_lolguy_idle_back/spr_lolguy_idle_back.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1521f646-fa49-4931-8e80-accea00a6b37","path":"sprites/spr_lolguy_idle_back/spr_lolguy_idle_back.yy",},"LayerId":{"name":"0f39333d-ec47-420c-939d-bb976db3d6ad","path":"sprites/spr_lolguy_idle_back/spr_lolguy_idle_back.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_lolguy_idle_back","path":"sprites/spr_lolguy_idle_back/spr_lolguy_idle_back.yy",},"resourceVersion":"1.0","name":"1521f646-fa49-4931-8e80-accea00a6b37","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e2cea0f1-5e50-4430-8f7f-f0d927ce6fc6","path":"sprites/spr_lolguy_idle_back/spr_lolguy_idle_back.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e2cea0f1-5e50-4430-8f7f-f0d927ce6fc6","path":"sprites/spr_lolguy_idle_back/spr_lolguy_idle_back.yy",},"LayerId":{"name":"0f39333d-ec47-420c-939d-bb976db3d6ad","path":"sprites/spr_lolguy_idle_back/spr_lolguy_idle_back.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_lolguy_idle_back","path":"sprites/spr_lolguy_idle_back/spr_lolguy_idle_back.yy",},"resourceVersion":"1.0","name":"e2cea0f1-5e50-4430-8f7f-f0d927ce6fc6","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1521f646-fa49-4931-8e80-accea00a6b37",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e2cea0f1-5e50-4430-8f7f-f0d927ce6fc6",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_lolguy_idle_back","path":"sprites/spr_lolguy_idle_back/spr_lolguy_idle_back.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_lolguy_idle_back",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,13 +42,13 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 2.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"e37fb07a-9a09-4124-827b-d145f818a530","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1521f646-fa49-4931-8e80-accea00a6b37","path":"sprites/spr_lolguy_idle_back/spr_lolguy_idle_back.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"f67716a2-3c1a-42e8-8551-f63e2c27db11","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e2cea0f1-5e50-4430-8f7f-f0d927ce6fc6","path":"sprites/spr_lolguy_idle_back/spr_lolguy_idle_back.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"e37fb07a-9a09-4124-827b-d145f818a530","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1521f646-fa49-4931-8e80-accea00a6b37","path":"sprites/spr_lolguy_idle_back/spr_lolguy_idle_back.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f67716a2-3c1a-42e8-8551-f63e2c27db11","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e2cea0f1-5e50-4430-8f7f-f0d927ce6fc6","path":"sprites/spr_lolguy_idle_back/spr_lolguy_idle_back.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +64,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_lolguy_idle_back","path":"sprites/spr_lolguy_idle_back/spr_lolguy_idle_back.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_lolguy_idle_back",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0f39333d-ec47-420c-939d-bb976db3d6ad","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0f39333d-ec47-420c-939d-bb976db3d6ad","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "idle",
     "path": "folders/Sprites/Characters/Lol Guy/idle.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_lolguy_idle_back",
-  "tags": [],
-  "resourceType": "GMSprite",
 }
