@@ -39,6 +39,8 @@ battleConf = {
 	returnRoom: 0
 }
 
+define_achievements()
+
 quitGame=0
 
 room_goto_next()
