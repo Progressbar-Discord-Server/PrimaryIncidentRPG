@@ -135,6 +135,7 @@
     {"id":{"name":"rm_battle","path":"rooms/rm_battle/rm_battle.yy",},"order":4,},
     {"id":{"name":"spr_placeholder_battle","path":"sprites/spr_placeholder_battle/spr_placeholder_battle.yy",},"order":2,},
     {"id":{"name":"obj_title_placeholder","path":"objects/obj_title_placeholder/obj_title_placeholder.yy",},"order":3,},
+    {"id":{"name":"spr_achievement_box","path":"sprites/spr_achievement_box/spr_achievement_box.yy",},"order":10,},
     {"id":{"name":"spr_wolf_millers_right_idle","path":"sprites/spr_wolf_millers_right_idle/spr_wolf_millers_right_idle.yy",},"order":3,},
     {"id":{"name":"__scribble_gen_8_position_glyphs","path":"scripts/__scribble_gen_8_position_glyphs/__scribble_gen_8_position_glyphs.yy",},"order":8,},
     {"id":{"name":"scribble_anim_wheel","path":"scripts/scribble_anim_wheel/scribble_anim_wheel.yy",},"order":8,},
