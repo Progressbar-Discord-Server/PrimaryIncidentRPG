@@ -15,5 +15,3 @@ for (var i = positions-1; i >= 0; i--;) {
 	pos_y[i] = y;
 	store_sprite[i] = lastFacing;
 }
-
-grant_achievement(77)
