@@ -14,7 +14,7 @@ if room != rm_title_placeholder {
 }
 
 if local_achievement.stage = 0 {
-	local_achievement.xx = lerp(local_achievement.xx, 643, 0.1)
+	local_achievement.xx = lerp(local_achievement.xx, 643, 0.15)
 } else {
-	local_achievement.xx= lerp(local_achievement.xx, 380, 0.1)
+	local_achievement.xx= lerp(local_achievement.xx, 380, 0.15)
 }
