@@ -8,4 +8,4 @@ draw_text_transformed_color(0, 0, "Quitting" + string_repeat(".", (quitGame*50)/
 var xx = local_achievement.xx
 draw_rectangle_outline(xx, 3, xx+256, 64, c_black, c_white, 2)
 draw_text(xx+3, 3, "New Achievement!")
-draw_text_transformed(xx+3, 32, local_achievement.name, 1.5, 1.5, 0)
+draw_text_transformed(xx+3, 24, local_achievement.name, 1.5, 1.5, 0)
