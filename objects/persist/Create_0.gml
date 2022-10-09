@@ -43,4 +43,6 @@ define_achievements()
 
 quitGame=0
 
+local_achievement = {stage: 0, name: "aaa", desc: "aaaaaa", xx: 3}
+
 room_goto_next()
