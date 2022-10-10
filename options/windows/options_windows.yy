@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMWindowsOptions",
+  "resourceVersion": "1.1",
+  "name": "Windows",
   "option_windows_display_name": "Primary Incident RPG",
   "option_windows_executable_name": "${project_name}.exe",
   "option_windows_version": "1.0.0.0",
@@ -8,7 +11,7 @@
   "option_windows_description_info": "",
   "option_windows_display_cursor": true,
   "option_windows_icon": "icons/icon.ico",
-  "option_windows_save_location": 0,
+  "option_windows_save_location": 1,
   "option_windows_splash_screen": "${base_options_dir}/windows/splash/splash.png",
   "option_windows_use_splash": false,
   "option_windows_start_fullscreen": false,
@@ -28,9 +31,4 @@
   "option_windows_enable_steam": false,
   "option_windows_disable_sandbox": false,
   "option_windows_steam_use_alternative_launcher": false,
-  "option_windows_use_x64": true,
-  "resourceVersion": "1.1",
-  "name": "Windows",
-  "tags": [],
-  "resourceType": "GMWindowsOptions",
 }
