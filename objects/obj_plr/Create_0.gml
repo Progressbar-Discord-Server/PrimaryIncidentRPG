@@ -16,4 +16,4 @@ for (var i = positions-1; i >= 0; i--;) {
 	store_sprite[i] = lastFacing;
 }
 
-grant_achievement(0)
+grant_achievement(2)

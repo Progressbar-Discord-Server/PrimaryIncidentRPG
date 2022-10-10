@@ -27,6 +27,7 @@ global.saveData={
 	},
 	currentRoom: room_get_name(room),
 	coins: 0,
+	claimedAchievements:[],
 	inventroy:[],
 	party:["lol-guy"],
 	battlesWon:{}

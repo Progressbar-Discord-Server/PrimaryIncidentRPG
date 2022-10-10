@@ -1,15 +1,21 @@
 function define_achievements() {
 	global.ach = [
-		{name: "test", description: "testing", has: false, show: true},
-		{name: "test again", description: "more testing", has: true, show: true},
-		{name: "not a test", description: "i swear it's not a test", has: false, show: false}
+		{name: "test", description: "testing", show: true},
+		{name: "test again", description: "more testing", show: true},
+		{name: "not a test", description: "i swear it's not a test", show: false}
 	]
 }
 
 function grant_achievement(achievement_id) {
 	var aID = achievement_id
 	
-	if aID > array_length(global.ach) {show_error("Requested achievement ID is out of scope, requested " + string(aID) + ", but array has only " + string(array_length(global.ach)) + " entries.", true)}
+	if aID > array_length(global.ach)-1 {show_error("Requested achievement ID is out of scope, requested " + string(aID) + ", but array has only " + string(array_length(global.ach)-1) + " entries.", true)}
 	
-	with persist event_user(0)
+	global.saveData.claimedAchievements[aID] = true
+	 
+	//Show achievement on HUD
+	with persist {
+		local_achievement.name = global.ach[aID].name
+		event_user(0)
+	}
 }
