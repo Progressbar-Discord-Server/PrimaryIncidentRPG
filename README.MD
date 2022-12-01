@@ -1,3 +1,9 @@
+# ⚠️ This repo has been archived ⚠️
+
+Due to multiple issues like copyrighted assets, lack of popularity outside of our server's community and other reasons, we have all decided to archive the repo.
+
+If you wish to download the unfinished and buggy developer build, [click here](https://github.com/Progressbar-Discord-Server/PrimaryIncidentRPG/releases/tag/unfinshed-nov30).
+
 ## PrimaryIncidentRPG - An RPG based around the Progressbar95 Fan Server
 
 A primary incident. Far much greater than any incident that ever happened.
